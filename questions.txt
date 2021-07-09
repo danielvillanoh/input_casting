@@ -1,32 +1,33 @@
-name: <name here>
-date: <date here>
+name: Daniel Villano-Herrera
+date: 7/8/2021
 
 1 - What is output? What is an example of an output device?
-
+Output is the data that a computer sends. An example of an output device, is a printer.
 
 2 - What is input? What is an example of an input device?
-
+Input is the data that the computer receives. An example of an input device is a keyboard.
 
 3 - What function do we use to output to the user?
-
+We use print(), to output to the user.
 
 4 - What function do we use to get input to the user?
-
+We use the function input(), to get input to the user.
 
 5 - What is the argument that input takes? Why is it important?
 
 
 6 - What data type does input return? What can we do to get different types of data?
-
+Input returns Strings. In order to get different types of data, we need casting.
 
 7 - Give an example of casting input to an integer.
-
+int(input('please enter a number:'))
 
 8 - When might casting input from the user cause the program to crash?
-
+What might cause the program to crash from casting input, if the user decided to put the wrong data type
+(with the exception of entering an integer in a float input).
 
 9 - Can you use casting whenever you want?
 
 
 10 - How might you lose information if you cast to an integer, instead of a float?
-
+You might lose precision if you use cast an integer instead of a float.

@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: Daniel
+# date: Villano-Herrera
 
 # -------------------- Section 4 -------------------- #
 
@@ -36,6 +36,11 @@
 #           $
 #
 # ---- WRITE CODE BELOW ---- #
+def diamond(symbol):
+    print(' ' * 5 + symbol + ' ' * 5 + '\n'
+        + ' ' * 4 + symbol * 3 + ' ' * 4 +'\n'
+
+    )
 
 
 #   2. Framed Diamond

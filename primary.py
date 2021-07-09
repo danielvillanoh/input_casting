@@ -17,7 +17,10 @@
 #   deppe, elia
 #
 # ---- WRITE CODE BELOW ---- #
+first_name = input('first name...')
+last_name = input('last name...')
 
+print(last_name, ', ', first_name)
 
 #   2. Pyramid
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
@@ -34,7 +37,12 @@
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
-
+symbol = input('Enter a symbol: ')
+print(symbol)
+print(symbol * 2)
+print(symbol * 3)
+print(symbol * 2)
+print(symbol)
 
 #   3. Parallelogram
 #       a. Prompt input from the user in the form of a single character. Save to a variable named symbol.
@@ -54,6 +62,14 @@
 #
 # ---- WRITE CODE BELOW ---- #
 
+symbol = input('Enter a symbol: ')
+print(symbol)
+print(symbol * 2)
+print(symbol * 3)
+print(symbol * 4)
+print(' ' + symbol * 3)
+print(' ' * 2 + symbol * 2)
+print(' ' * 3 + symbol)
 
 # -------------------- Section 2 -------------------- #
 
@@ -76,7 +92,13 @@
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
+num1 = input('Enter a number: ')
+num2 = int(input('Enter a number: '))
+num3 = float(input('Enter a number: '))
 
+print(num1 * 10)
+print(num2 * 10)
+print(num3 * 10)
 
 # Objectives:
 #   2. Diameter of a Circle
@@ -91,6 +113,10 @@
 #   diameter = 24.6
 #
 # ---- WRITE CODE BELOW ---- #
+radius = int(input('Enter a radius: '))
+diameter = radius * 2
+
+print(diameter)
 
 
 # Objectives:
@@ -111,9 +137,31 @@
 #   area of the circle: 6134.4296
 #
 # ---- WRITE CODE BELOW ---- #
+def area_circle(radius):
+    area = 3.14 * radius ** 2
+    return area
 
+
+num = int(input('Enter a radius: '))
+print(area_circle(num))
 
 # -------------------- Section 4 -------------------- #
 #
 # Create a conversation with a faux (fake) AI, using input and print().
 # See the example in example.py
+print()
+name = input('Hello, what\'s your name?: ')
+print(name, 'what a lovely name. My name is Nani.')
+
+numberFav = int(input('Enter your favorite number: '))
+numberLeast = int(input('Enter your least favorite number: '))
+
+print('With the power of addition, the combination of the two numbers are', numberFav + numberLeast)
+
+floatNumber = float(input('Any favorite decimal number?: '))
+print('What a coincidence, my favorite number is also', floatNumber)
+
+feeling = input('How are you liking this so far?: ')
+
+print('Okay, I know it\'s short but I\'m running out time and ideas.')
+print('Goodbye :D')
