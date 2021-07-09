@@ -121,7 +121,6 @@ diameter = radius * 2
 
 print(diameter)
 
-
 # Objectives:
 #   3. Area of a Circle
 #       a. Define a function named area_circle(). Accept the parameters listed below.
@@ -141,6 +140,8 @@ print(diameter)
 #
 # ---- WRITE CODE BELOW ---- #
 print()
+
+
 def area_circle(radius):
     area = 3.14 * radius ** 2
     return area

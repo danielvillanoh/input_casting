@@ -4,6 +4,9 @@
 #       where d = distance; sqrt() represent square root, or to the power of (1/2)
 
 # Write a program that accepts two coordinates from the user and then calculates distance between the points.
+def distance(x1, coord2):
+
+
 
 # Example Output:
 #   x1 = 5
