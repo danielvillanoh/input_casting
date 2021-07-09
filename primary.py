@@ -37,6 +37,7 @@ print(last_name, ', ', first_name)
 #   $
 #
 # ---- WRITE CODE BELOW ---- #
+print()
 symbol = input('Enter a symbol: ')
 print(symbol)
 print(symbol * 2)
@@ -61,7 +62,7 @@ print(symbol)
 #      @
 #
 # ---- WRITE CODE BELOW ---- #
-
+print()
 symbol = input('Enter a symbol: ')
 print(symbol)
 print(symbol * 2)
@@ -92,6 +93,7 @@ print(' ' * 3 + symbol)
 #   num3 (float) | 21322.4
 #
 # ---- WRITE CODE BELOW ---- #
+print()
 num1 = input('Enter a number: ')
 num2 = int(input('Enter a number: '))
 num3 = float(input('Enter a number: '))
@@ -113,6 +115,7 @@ print(num3 * 10)
 #   diameter = 24.6
 #
 # ---- WRITE CODE BELOW ---- #
+print()
 radius = int(input('Enter a radius: '))
 diameter = radius * 2
 
@@ -137,6 +140,7 @@ print(diameter)
 #   area of the circle: 6134.4296
 #
 # ---- WRITE CODE BELOW ---- #
+print()
 def area_circle(radius):
     area = 3.14 * radius ** 2
     return area
